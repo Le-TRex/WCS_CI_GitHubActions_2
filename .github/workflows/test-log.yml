@@ -1,0 +1,14 @@
+name: test-log
+
+on: 
+  pull_request:
+    types: [opened]
+
+jobs: 
+  test-log:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Display 'Hello World'
+      run: echo "Hello World"
+
+
