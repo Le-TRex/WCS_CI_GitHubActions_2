@@ -8,7 +8,7 @@ jobs:
   test-log:
     runs-on: ubuntu-latest
     steps: 
-      - name: Display 'Hello World'
-      run: echo "Hello World"
+      - name: Display Hello World
+        run: echo "Hello World"
 
 
